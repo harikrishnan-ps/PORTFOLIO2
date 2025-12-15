@@ -1,0 +1,727 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Harikrishnan P S - AI/ML Developer Portfolio</title>
+  <meta name="description" content="Portfolio of Harikrishnan P S, an AI/ML Developer specializing in LLM applications, reasoning systems, and AI-powered solutions.">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="icon" type="image/svg+xml" href="../public/favicon.png">
+</head>
+<body>
+  <!-- Navigation -->
+  <nav id="navigation" class="nav">
+    <div class="container nav-container">
+      <button class="nav-logo" onclick="scrollToSection('hero')">
+        Harikrishnan P S
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <button onclick="scrollToSection('about')">About</button>
+        <button onclick="scrollToSection('education')">Education</button>
+        <button onclick="scrollToSection('projects')">Projects</button>
+        <button onclick="scrollToSection('experience')">Experience</button>
+        <button onclick="scrollToSection('skills')">Skills</button>
+        <button onclick="scrollToSection('achievements')">Achievements</button>
+        <button onclick="scrollToSection('contact')">Contact</button>
+      </div>
+
+      <button class="nav-toggle" id="navToggle" onclick="toggleMobileMenu()">
+        <span class="hamburger"></span>
+      </button>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <button onclick="scrollToSection('about')">About</button>
+      <button onclick="scrollToSection('education')">Education</button>
+      <button onclick="scrollToSection('projects')">Projects</button>
+      <button onclick="scrollToSection('experience')">Experience</button>
+      <button onclick="scrollToSection('skills')">Skills</button>
+      <button onclick="scrollToSection('achievements')">Achievements</button>
+      <button onclick="scrollToSection('contact')">Contact</button>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero">
+    <div class="hero-background">
+      <div class="hero-glow hero-glow-1"></div>
+      <div class="hero-glow hero-glow-2"></div>
+    </div>
+    <div class="container hero-content">
+      <div class="hero-text">
+        <h1 class="gradient-text">Harikrishnan P S</h1>
+        <h2>AI/ML Developer</h2>
+        <p class="hero-description">
+          Specializing in LLM applications, reasoning systems, and AI-powered solutions. 
+          Passionate about building intelligent systems that solve real-world problems.
+        </p>
+        <div class="hero-buttons">
+          <button class="btn btn-primary" onclick="scrollToSection('projects')">View Projects</button>
+          <button class="btn btn-outline" onclick="scrollToSection('contact')">Get in Touch</button>
+        </div>
+      </div>
+      <button class="scroll-indicator" onclick="scrollToSection('about')" aria-label="Scroll to about section">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <polyline points="6 9 12 15 18 9"></polyline>
+        </svg>
+      </button>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Me</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="highlights-grid">
+        <div class="card highlight-card">
+          <div class="card-content">
+            <div class="icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                <path d="M8.5 8.5v.01"></path>
+                <path d="M16 15.5v.01"></path>
+                <path d="M12 12v.01"></path>
+                <path d="M11 17v.01"></path>
+                <path d="M7 14v.01"></path>
+              </svg>
+            </div>
+            <h3>AI/ML Expertise</h3>
+            <p>Deep knowledge in NLP, LLMs, and reasoning systems</p>
+          </div>
+        </div>
+
+        <div class="card highlight-card">
+          <div class="card-content">
+            <div class="icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <polyline points="16 18 22 12 16 6"></polyline>
+                <polyline points="8 6 2 12 8 18"></polyline>
+              </svg>
+            </div>
+            <h3>Full-Stack Development</h3>
+            <p>Building end-to-end AI-powered applications</p>
+          </div>
+        </div>
+
+        <div class="card highlight-card">
+          <div class="card-content">
+            <div class="icon-wrapper">
+              <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2l3.09 6.26L22 9.27l-5 4.87 1.18 6.88L12 17.77l-6.18 3.25L7 14.14 2 9.27l6.91-1.01L12 2z"></path>
+              </svg>
+            </div>
+            <h3>Innovation Focus</h3>
+            <p>Creating cutting-edge solutions with latest technologies</p>
+          </div>
+        </div>
+      </div>
+
+      <div class="card about-card">
+        <div class="card-content">
+          <p>
+            I am an AI/ML Developer with a strong focus on 
+            <span class="text-primary">Large Language Models</span> and 
+            <span class="text-primary">reasoning systems</span>. My expertise 
+            lies in developing enterprise-level LLM applications, implementing RAG architectures, 
+            and optimizing model performance for real-world use cases.
+          </p>
+          <p>
+            With experience in both research and practical implementation, I specialize in 
+            building AI-powered business solutions that leverage the latest advancements in 
+            natural language processing, deep learning, and prompt engineering. I'm passionate 
+            about creating intelligent systems that are not only powerful but also efficient 
+            and user-friendly.
+          </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Education Section -->
+  <section id="education" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Education</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="education-wrapper">
+        <div class="card education-card">
+          <div class="card-content">
+            <div class="education-header">
+              <div class="icon-wrapper-large">
+                <svg width="40" height="40" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M22 10v6M2 10l10-5 10 5-10 5z"></path>
+                  <path d="M6 12v5c3 3 9 3 12 0v-5"></path>
+                </svg>
+              </div>
+              <div class="education-info">
+                <h3>Bachelor of Technology in Computer Science Engineering</h3>
+                <p class="institution">Muthoot Institute of Technology and Science</p>
+                <div class="education-meta">
+                  <span class="meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    2022 - 2026
+                  </span>
+                  <span class="meta-item">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                      <circle cx="12" cy="10" r="3"></circle>
+                    </svg>
+                    Kerala, India
+                  </span>
+                </div>
+                <p class="education-description">
+                  Pursuing a comprehensive education in computer science with a focus on artificial 
+                  intelligence, machine learning, and software engineering. Actively engaged in 
+                  research projects and practical applications of AI/ML technologies.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Featured Projects</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="projects-list">
+        <!-- Project 1 -->
+        <div class="card project-card">
+          <div class="card-header">
+            <div class="project-title-section">
+              <h3>Advanced AI Reasoning System</h3>
+              <p class="project-subtitle">Enterprise LLM Application</p>
+            </div>
+            <a href="https://github.com/harikrishnan-ps" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              View on GitHub
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="card-content">
+            <p class="project-description">
+              A sophisticated enterprise-level application leveraging Large Language Models for complex reasoning tasks. Features include multi-step reasoning, context-aware responses, and optimized prompt engineering.
+            </p>
+            <div class="project-highlights">
+              <h4>Key Highlights:</h4>
+              <ul>
+                <li>Implemented advanced RAG architecture for enhanced context retrieval</li>
+                <li>Optimized LLM performance with custom prompt engineering techniques</li>
+                <li>Integrated vector databases for efficient semantic search</li>
+                <li>Built scalable backend with real-time processing capabilities</li>
+              </ul>
+            </div>
+            <div class="project-technologies">
+              <h4>Technologies:</h4>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">LangChain</span>
+                <span class="tag">FAISS</span>
+                <span class="tag">PyTorch</span>
+                <span class="tag">Streamlit</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Project 2 -->
+        <div class="card project-card">
+          <div class="card-header">
+            <div class="project-title-section">
+              <h3>Neural Data Analyst</h3>
+              <p class="project-subtitle">AI-Powered Business Suite</p>
+            </div>
+            <a href="https://github.com/harikrishnan-ps" target="_blank" rel="noopener noreferrer" class="btn btn-sm btn-outline">
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+              </svg>
+              View on GitHub
+              <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"></path>
+                <polyline points="15 3 21 3 21 9"></polyline>
+                <line x1="10" y1="14" x2="21" y2="3"></line>
+              </svg>
+            </a>
+          </div>
+          <div class="card-content">
+            <p class="project-description">
+              An intelligent business analytics platform that uses AI to automatically analyze data, generate insights, and create visualizations. Combines NLP with data science for automated reporting.
+            </p>
+            <div class="project-highlights">
+              <h4>Key Highlights:</h4>
+              <ul>
+                <li>Developed NLP-based query interface for natural language data exploration</li>
+                <li>Implemented automated insight generation using deep learning models</li>
+                <li>Created interactive dashboards with real-time data processing</li>
+                <li>Built ETL pipelines for seamless data integration</li>
+              </ul>
+            </div>
+            <div class="project-technologies">
+              <h4>Technologies:</h4>
+              <div class="tech-tags">
+                <span class="tag">Python</span>
+                <span class="tag">TensorFlow</span>
+                <span class="tag">Pandas</span>
+                <span class="tag">NumPy</span>
+                <span class="tag">Hugging Face</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Experience Section -->
+  <section id="experience" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Experience</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="timeline">
+        <!-- Experience 1 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card experience-card">
+            <div class="card-content">
+              <div class="experience-header">
+                <div class="icon-wrapper-medium">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <div class="experience-info">
+                  <h3>Open-Source Contributor</h3>
+                  <p class="organization">Various AI/ML Projects</p>
+                  <div class="period">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    May 2025 - Aug 2025
+                  </div>
+                </div>
+              </div>
+              <p class="experience-description">
+                Contributing to open-source AI/ML projects, focusing on LLM applications and natural language processing tools.
+              </p>
+              <div class="responsibilities">
+                <h4>Key Responsibilities:</h4>
+                <ul>
+                  <li>Contributed to LangChain and Hugging Face ecosystem projects</li>
+                  <li>Implemented new features and bug fixes for AI/ML libraries</li>
+                  <li>Collaborated with global developer community on AI innovations</li>
+                  <li>Reviewed and improved documentation for better developer experience</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 2 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card experience-card">
+            <div class="card-content">
+              <div class="experience-header">
+                <div class="icon-wrapper-medium">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <div class="experience-info">
+                  <h3>Software Development Intern</h3>
+                  <p class="organization">KeySoft</p>
+                  <div class="period">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    May 2024 - Aug 2024
+                  </div>
+                </div>
+              </div>
+              <p class="experience-description">
+                Worked on developing and optimizing software solutions with a focus on AI integration and data processing.
+              </p>
+              <div class="responsibilities">
+                <h4>Key Responsibilities:</h4>
+                <ul>
+                  <li>Developed AI-powered features for business applications</li>
+                  <li>Optimized database queries and improved system performance</li>
+                  <li>Collaborated with cross-functional teams on product development</li>
+                  <li>Implemented automated testing and CI/CD pipelines</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Experience 3 -->
+        <div class="timeline-item">
+          <div class="timeline-dot"></div>
+          <div class="card experience-card">
+            <div class="card-content">
+              <div class="experience-header">
+                <div class="icon-wrapper-medium">
+                  <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect>
+                    <path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path>
+                  </svg>
+                </div>
+                <div class="experience-info">
+                  <h3>Community Ambassador</h3>
+                  <p class="organization">Pregrad Research Community</p>
+                  <div class="period">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                      <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+                      <line x1="16" y1="2" x2="16" y2="6"></line>
+                      <line x1="8" y1="2" x2="8" y2="6"></line>
+                      <line x1="3" y1="10" x2="21" y2="10"></line>
+                    </svg>
+                    Apr 2023 - May 2023
+                  </div>
+                </div>
+              </div>
+              <p class="experience-description">
+                Promoted research culture and facilitated knowledge sharing among students interested in AI/ML and computer science research.
+              </p>
+              <div class="responsibilities">
+                <h4>Key Responsibilities:</h4>
+                <ul>
+                  <li>Organized workshops and seminars on AI/ML topics</li>
+                  <li>Mentored students in research methodologies and project development</li>
+                  <li>Built connections between students and research opportunities</li>
+                  <li>Created educational content on emerging AI technologies</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Technical Skills</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="skills-grid">
+        <!-- Programming Languages -->
+        <div class="card skill-card">
+          <div class="card-header">
+            <div class="skill-header">
+              <div class="icon-wrapper-medium">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <h3>Programming Languages</h3>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="skill-tags">
+              <span class="skill-tag">Python</span>
+              <span class="skill-tag">Java</span>
+              <span class="skill-tag">SQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- AI/ML -->
+        <div class="card skill-card">
+          <div class="card-header">
+            <div class="skill-header">
+              <div class="icon-wrapper-medium">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M12 2a10 10 0 1 0 10 10 4 4 0 0 1-5-5 4 4 0 0 1-5-5"></path>
+                  <path d="M8.5 8.5v.01"></path>
+                  <path d="M16 15.5v.01"></path>
+                  <path d="M12 12v.01"></path>
+                  <path d="M11 17v.01"></path>
+                  <path d="M7 14v.01"></path>
+                </svg>
+              </div>
+              <h3>AI/ML</h3>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="skill-tags">
+              <span class="skill-tag">NLP</span>
+              <span class="skill-tag">LLMs</span>
+              <span class="skill-tag">RAG</span>
+              <span class="skill-tag">Deep Learning</span>
+              <span class="skill-tag">Model Evaluation</span>
+              <span class="skill-tag">Prompt Engineering</span>
+              <span class="skill-tag">Vector Databases</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Frameworks & Tools -->
+        <div class="card skill-card">
+          <div class="card-header">
+            <div class="skill-header">
+              <div class="icon-wrapper-medium">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M14.7 6.3a1 1 0 0 0 0 1.4l1.6 1.6a1 1 0 0 0 1.4 0l3.77-3.77a6 6 0 0 1-7.94 7.94l-6.91 6.91a2.12 2.12 0 0 1-3-3l6.91-6.91a6 6 0 0 1 7.94-7.94l-3.76 3.76z"></path>
+                </svg>
+              </div>
+              <h3>Frameworks & Tools</h3>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="skill-tags">
+              <span class="skill-tag">PyTorch</span>
+              <span class="skill-tag">TensorFlow</span>
+              <span class="skill-tag">LangChain</span>
+              <span class="skill-tag">Hugging Face</span>
+              <span class="skill-tag">Scikit-learn</span>
+              <span class="skill-tag">FAISS</span>
+              <span class="skill-tag">Pandas</span>
+              <span class="skill-tag">NumPy</span>
+              <span class="skill-tag">Streamlit</span>
+              <span class="skill-tag">Git</span>
+              <span class="skill-tag">GitHub</span>
+              <span class="skill-tag">Jupyter</span>
+              <span class="skill-tag">Google Colab</span>
+              <span class="skill-tag">VS Code</span>
+              <span class="skill-tag">MySQL</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Core Concepts -->
+        <div class="card skill-card">
+          <div class="card-header">
+            <div class="skill-header">
+              <div class="icon-wrapper-medium">
+                <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M2 3h6a4 4 0 0 1 4 4v14a3 3 0 0 0-3-3H2z"></path>
+                  <path d="M22 3h-6a4 4 0 0 0-4 4v14a3 3 0 0 1 3-3h7z"></path>
+                </svg>
+              </div>
+              <h3>Core Concepts</h3>
+            </div>
+          </div>
+          <div class="card-content">
+            <div class="skill-tags">
+              <span class="skill-tag">Data Structures & Algorithms</span>
+              <span class="skill-tag">Performance Optimization</span>
+              <span class="skill-tag">Database Systems</span>
+              <span class="skill-tag">ETL Pipelines</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section section-alt">
+    <div class="container">
+      <div class="section-header">
+        <h2>Achievements</h2>
+        <div class="section-divider"></div>
+      </div>
+
+      <div class="achievements-grid">
+        <!-- Achievement 1 -->
+        <div class="card achievement-card">
+          <div class="card-content">
+            <div class="achievement-header">
+              <div class="icon-wrapper-large">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <polyline points="16 18 22 12 16 6"></polyline>
+                  <polyline points="8 6 2 12 8 18"></polyline>
+                </svg>
+              </div>
+              <span class="year-badge">2024</span>
+            </div>
+            <h3>Dev-Clash 24-Hour Hackathon Participant</h3>
+            <p>
+              Participated in an intensive 24-hour hackathon, developing innovative solutions under time constraints and collaborating with fellow developers.
+            </p>
+          </div>
+        </div>
+
+        <!-- Achievement 2 -->
+        <div class="card achievement-card">
+          <div class="card-content">
+            <div class="achievement-header">
+              <div class="icon-wrapper-large">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M6 9H4.5a2.5 2.5 0 0 1 0-5H6"></path>
+                  <path d="M18 9h1.5a2.5 2.5 0 0 0 0-5H18"></path>
+                  <path d="M4 22h16"></path>
+                  <path d="M10 14.66V17c0 .55-.47.98-.97 1.21C7.85 18.75 7 20.24 7 22"></path>
+                  <path d="M14 14.66V17c0 .55.47.98.97 1.21C16.15 18.75 17 20.24 17 22"></path>
+                  <path d="M18 2H6v7a6 6 0 0 0 12 0V2z"></path>
+                </svg>
+              </div>
+              <span class="year-badge">2024-2025</span>
+            </div>
+            <h3>Open-Source AI/ML Developer</h3>
+            <p>
+              Active contributor to open-source AI/ML projects, helping advance the community through code contributions, documentation, and collaboration.
+            </p>
+          </div>
+        </div>
+
+        <!-- Achievement 3 -->
+        <div class="card achievement-card">
+          <div class="card-content">
+            <div class="achievement-header">
+              <div class="icon-wrapper-large">
+                <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="8" r="7"></circle>
+                  <polyline points="8.21 13.89 7 23 12 20 17 23 15.79 13.88"></polyline>
+                </svg>
+              </div>
+              <span class="year-badge">2025</span>
+            </div>
+            <h3>Finalist, MaTPO Aptitude Idol 2025</h3>
+            <p>
+              Recognized as a finalist in the MaTPO Aptitude Idol competition, demonstrating strong problem-solving and analytical skills.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Get in Touch</h2>
+        <div class="section-divider"></div>
+        <p class="section-description">
+          I'm always open to discussing new projects, opportunities, or collaborations. 
+          Feel free to reach out!
+        </p>
+      </div>
+
+      <div class="contact-wrapper">
+        <div class="card contact-card">
+          <div class="card-content">
+            <div class="contact-grid">
+              <!-- Phone -->
+              <div class="contact-item">
+                <div class="icon-wrapper-small">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
+                  </svg>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Phone</p>
+                  <a href="tel:+917736673917" class="contact-value">+91 7736673917</a>
+                </div>
+              </div>
+
+              <!-- Email -->
+              <div class="contact-item">
+                <div class="icon-wrapper-small">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path>
+                    <polyline points="22,6 12,13 2,6"></polyline>
+                  </svg>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Email</p>
+                  <a href="mailto:harikrishnanpsofficial@gmail.com" class="contact-value">harikrishnanpsofficial@gmail.com</a>
+                </div>
+              </div>
+
+              <!-- Location -->
+              <div class="contact-item">
+                <div class="icon-wrapper-small">
+                  <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                    <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"></path>
+                    <circle cx="12" cy="10" r="3"></circle>
+                  </svg>
+                </div>
+                <div class="contact-info">
+                  <p class="contact-label">Location</p>
+                  <p class="contact-value">Ernakulam, Kerala, India</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="card social-card">
+          <div class="card-content">
+            <h3>Connect with Me</h3>
+            <div class="social-buttons">
+              <a href="https://linkedin.com/in/harikrishnanpsofficial" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path>
+                  <rect x="2" y="9" width="4" height="12"></rect>
+                  <circle cx="4" cy="4" r="2"></circle>
+                </svg>
+                LinkedIn
+              </a>
+              <a href="https://github.com/harikrishnan-ps" target="_blank" rel="noopener noreferrer" class="btn btn-outline">
+                <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+                </svg>
+                GitHub
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-content">
+        <p>2025 Harikrishnan P S</p>
+        <p class="footer-tech">Built with HTML, CSS, and JavaScript</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

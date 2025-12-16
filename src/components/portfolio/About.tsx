@@ -49,11 +49,14 @@ const About = () => {
           <Card className="bg-card border-border">
             <CardContent className="p-6 xl:p-10">
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed">
-                I am an AI/ML Developer with a strong focus on{" "}
-                <span className="text-primary font-semibold">Large Language Models</span> and{" "}
-                <span className="text-primary font-semibold">reasoning systems</span>. My expertise 
-                lies in developing enterprise-level LLM applications, implementing RAG architectures, 
-                and optimizing model performance for real-world use cases.
+                I am Harikrishnan P S, a dedicated and ambitious Computer Science student with a strong 
+                background in {" "}
+                <span className="text-primary font-semibold">programming</span>{" "}
+                <span className="text-primary font-semibold">software development</span> and{" "}
+                <span className="text-primary font-semibold">algorithm design</span>. 
+                I'm assionate about utilizing cutting-edge technology to address complex problems and 
+                innovate practical solutions. Continuously seeking opportunities to enhance knowledge in 
+                computer science,and software engineering to make a significant impact in the tech industry and beyond.
               </p>
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed mt-4">
                 With experience in both research and practical implementation, I specialize in 

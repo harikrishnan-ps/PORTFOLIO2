@@ -24,12 +24,12 @@ const Hero = () => {
               <span className="gradient-text">Harikrishnan P S</span>
             </h1>
             <h2 className="text-xl xl:text-3xl font-semibold text-foreground/90">
-              SOFTWARE DEVELOPER
+              Software Developer
             </h2>
           </div>
 
           <p className="text-base xl:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Specializing in LLM applications, reasoning systems, and AI-powered solutions. 
+            Specializing  in computer science, cybersecurity, and software engineering. 
             Passionate about building intelligent systems that solve real-world problems.
           </p>
 

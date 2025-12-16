@@ -29,7 +29,7 @@ const Hero = () => {
           </div>
 
           <p className="text-base xl:text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Specializing  in computer science, cybersecurity, and software engineering. 
+            Specializing  in Computer science, Artificial Intelligence, Machine Learning and Software engineering. 
             Passionate about building intelligent systems that solve real-world problems.
           </p>
 

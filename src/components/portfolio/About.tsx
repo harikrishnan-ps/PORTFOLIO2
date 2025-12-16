@@ -51,7 +51,7 @@ const About = () => {
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed">
                 I am Harikrishnan P S, a dedicated and ambitious Computer Science student with a strong 
                 background in {" "}
-                <span className="text-primary font-semibold">programming</span>{" "}
+                <span className="text-primary font-semibold">programming</span>,{" "}
                 <span className="text-primary font-semibold">software development</span> and{" "}
                 <span className="text-primary font-semibold">algorithm design</span>. 
                 I'm assionate about utilizing cutting-edge technology to address complex problems and 

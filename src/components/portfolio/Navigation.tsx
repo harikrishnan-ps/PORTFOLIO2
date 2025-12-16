@@ -45,7 +45,7 @@ const Navigation = () => {
             className="text-lg xl:text-2xl font-bold gradient-text hover:opacity-80 transition-opacity"
             type="button"
           >
-            Harikrishnan P S
+            HARIKRISHNAN P S
           </button>
 
           <div className="hidden xl:flex items-center gap-8">

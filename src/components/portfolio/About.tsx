@@ -54,9 +54,9 @@ const About = () => {
                 <span className="text-primary font-semibold">programming</span>,{" "}
                 <span className="text-primary font-semibold">software development</span> and{" "}
                 <span className="text-primary font-semibold">algorithm design</span>. 
-                I'm assionate about utilizing cutting-edge technology to address complex problems and 
+                I'm passionate about utilizing cutting-edge technology to address complex problems and 
                 innovate practical solutions. Continuously seeking opportunities to enhance knowledge in 
-                computer science,and software engineering to make a significant impact in the tech industry and beyond.
+                computer science, and software engineering to make a significant impact in the tech industry and beyond.
               </p>
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed mt-4">
                 With experience in both research and practical implementation, I specialize in 

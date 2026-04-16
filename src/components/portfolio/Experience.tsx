@@ -4,42 +4,29 @@ import { Briefcase, Calendar } from "lucide-react";
 const Experience = () => {
   const experiences = [
     {
-      title: "Open-Source Contributor",
-      organization: "Various AI/ML Projects",
-      period: "May 2025 - Aug 2025",
+      title: "Audio & Visual Lead",
+      organization: "MITS Media Club",
+      period: "2022 - Present",
       description:
-        "Contributing to open-source AI/ML projects, focusing on LLM applications and natural language processing tools.",
+        "Leading the audio and visual operations of the MITS Media Club, overseeing content production and event media coverage for the institution.",
       responsibilities: [
-        "Contributed to LangChain and Hugging Face ecosystem projects",
-        "Implemented new features and bug fixes for AI/ML libraries",
-        "Collaborated with global developer community on AI innovations",
-        "Reviewed and improved documentation for better developer experience",
+        "Managed audio-visual setup and operations for college events and functions",
+        "Led a team of media volunteers to capture and produce visual content",
+        "Coordinated media coverage for technical fests, seminars, and college activities",
+        "Maintained and operated AV equipment to ensure high-quality output",
       ],
     },
     {
-      title: "Software Development Intern",
-      organization: "KeySoft",
-      period: "May 2024 - Aug 2024",
+      title: "Content Developer",
+      organization: "µLearn MITS",
+      period: "2022 - Present",
       description:
-        "Worked on developing and optimizing software solutions with a focus on AI integration and data processing.",
+        "Contributing as a Content Developer at µLearn MITS, Kerala's largest student peer-learning community, creating educational content and supporting knowledge sharing among students.",
       responsibilities: [
-        "Developed AI-powered features for business applications",
-        "Optimized database queries and improved system performance",
-        "Collaborated with cross-functional teams on product development",
-        "Implemented automated testing and CI/CD pipelines",
-      ],
-    },
-    {
-      title: "Community Ambassador",
-      organization: "Pregrad Research Community",
-      period: "Apr 2023 - May 2023",
-      description:
-        "Promoted research culture and facilitated knowledge sharing among students interested in AI/ML and computer science research.",
-      responsibilities: [
-        "Organized workshops and seminars on AI/ML topics",
-        "Mentored students in research methodologies and project development",
-        "Built connections between students and research opportunities",
-        "Created educational content on emerging AI technologies",
+        "Created structured educational content for peer learning and knowledge sharing",
+        "Supported student learning initiatives through µLearn's community platform",
+        "Contributed to workshops and collaborative learning sessions",
+        "Assisted in building a knowledge-sharing ecosystem within the campus chapter",
       ],
     },
   ];

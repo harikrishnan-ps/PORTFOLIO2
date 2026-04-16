@@ -1,27 +1,55 @@
 import { Card, CardContent } from "@/components/ui/card";
-import { Trophy, Code, Award } from "lucide-react";
+import { Trophy, Code, Award, Brain } from "lucide-react";
 
 const Achievements = () => {
   const achievements = [
     {
-      icon: Code,
-      title: "Dev-Clash 24-Hour Hackathon Participant",
+      icon: Award,
+      title: "B2 Grade (CEFR) – Cambridge English Linguaskill Business",
       description:
-        "Participated in an intensive 24-hour hackathon, developing innovative solutions under time constraints and collaborating with fellow developers.",
+        "Attained B2 level proficiency in English under the CEFR framework through the Cambridge English Linguaskill Business Exam.",
+      year: "2023",
+    },
+    {
+      icon: Trophy,
+      title: "Database Management System – NPTEL (Elite Certificate)",
+      description:
+        "Earned an Elite Certificate from IIT Kharagpur for successfully completing the NPTEL course on Database Management Systems.",
       year: "2024",
     },
     {
       icon: Trophy,
-      title: "Open-Source AI/ML Developer",
+      title: "Introduction to IoT – NPTEL (Elite + Silver Certificate)",
       description:
-        "Active contributor to open-source AI/ML projects, helping advance the community through code contributions, documentation, and collaboration.",
-      year: "2024-2025",
+        "Earned Elite + Silver certification from IIT Kharagpur for the NPTEL Introduction to Internet of Things course.",
+      year: "2024",
+    },
+    {
+      icon: Code,
+      title: "MERN Stack Certification – Zero Pixels",
+      description:
+        "Completed a professional MERN Stack certification covering MongoDB, Express.js, React, and Node.js from Zero Pixels.",
+      year: "2024",
+    },
+    {
+      icon: Brain,
+      title: "AI & Machine Learning – IBM SkillsBuild",
+      description:
+        "Completed the Artificial Intelligence and Machine Learning program offered by IBM SkillsBuild.",
+      year: "2024",
     },
     {
       icon: Award,
-      title: "Finalist, MaTPO Aptitude Idol 2025",
+      title: "AI-ML Certification, First Class – L&T EduTech",
       description:
-        "Recognized as a finalist in the MaTPO Aptitude Idol competition, demonstrating strong problem-solving and analytical skills.",
+        "Achieved First Class distinction in the AI-ML certification program offered by L&T EduTech.",
+      year: "2024",
+    },
+    {
+      icon: Trophy,
+      title: "STTP on Ethical Hacking & Cyber Forensics – IIIT Kottayam",
+      description:
+        "Participated in the Short-Term Training Program on Ethical Hacking and Cyber Forensics organized by IIIT Kottayam.",
       year: "2025",
     },
   ];
@@ -35,7 +63,7 @@ const Achievements = () => {
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
           </div>
 
-          <div className="grid grid-cols-1 xl:grid-cols-3 gap-6 xl:gap-8">
+          <div className="grid grid-cols-1 xl:grid-cols-2 gap-6 xl:gap-8">
             {achievements.map((achievement, index) => (
               <Card
                 key={index}

@@ -5,31 +5,68 @@ import { ExternalLink, Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "Advanced AI Reasoning System",
-      subtitle: "Enterprise LLM Application",
+      title: "Heart Disease Predictor",
+      subtitle: "ML-Based Health Risk Analysis (2024)",
       description:
-        "A sophisticated enterprise-level application leveraging Large Language Models for complex reasoning tasks. Features include multi-step reasoning, context-aware responses, and optimized prompt engineering.",
+        "A Heart Disease Prediction System that analyzes user health data and estimates disease risk using Machine Learning. Features performance evaluation through accuracy metrics, R² score, and risk-based clustering insights.",
       highlights: [
-        "Implemented advanced RAG architecture for enhanced context retrieval",
-        "Optimized LLM performance with custom prompt engineering techniques",
-        "Integrated vector databases for efficient semantic search",
-        "Built scalable backend with real-time processing capabilities",
+        "Implemented Linear Regression and K-Means clustering for disease risk analysis",
+        "Evaluated model performance using accuracy, R² score and cluster-based insights",
+        "Built a clean web interface using HTML and CSS for user health data input",
       ],
-      technologies: ["Python", "LangChain", "FAISS", "PyTorch", "Streamlit"],
+      technologies: ["Python", "HTML", "CSS", "Linear Regression", "K-Means"],
       githubUrl: "https://github.com/harikrishnan-ps",
     },
     {
-      title: "Neural Data Analyst",
-      subtitle: "AI-Powered Business Suite",
+      title: "CampusConnect",
+      subtitle: "Campus Collaboration Web Platform (2024)",
       description:
-        "An intelligent business analytics platform that uses AI to automatically analyze data, generate insights, and create visualizations. Combines NLP with data science for automated reporting.",
+        "A web platform that enables collaboration, communication, and resource sharing within a campus. Supports real-time Q&A, event listings, and shared resources to foster peer-to-peer learning and efficient academic interaction.",
       highlights: [
-        "Developed NLP-based query interface for natural language data exploration",
-        "Implemented automated insight generation using deep learning models",
-        "Created interactive dashboards with real-time data processing",
-        "Built ETL pipelines for seamless data integration",
+        "Built real-time Q&A and event listing features for campus-wide interaction",
+        "Integrated MongoDB for dynamic content and resource management",
+        "Designed an intuitive UI with HTML, CSS, and JavaScript for seamless navigation",
       ],
-      technologies: ["Python", "TensorFlow", "Pandas", "NumPy", "Hugging Face"],
+      technologies: ["HTML", "CSS", "JavaScript", "MongoDB"],
+      githubUrl: "https://github.com/harikrishnan-ps",
+    },
+    {
+      title: "Personal Portfolio Website",
+      subtitle: "React + Vercel Deployment (2025)",
+      description:
+        "Developed and deployed a personal portfolio website using React with AI-assisted design support. Integrated Git-based version control and automated deployment on Vercel, implementing a CI/CD-like workflow.",
+      highlights: [
+        "Deployed on Vercel with automatic build and deployment on every code push",
+        "Implemented Git-based version control for structured CI/CD-like workflow",
+        "Used build logs for debugging and ensured smooth live deployment",
+      ],
+      technologies: ["React", "Vercel", "Git"],
+      githubUrl: "https://github.com/harikrishnan-ps",
+    },
+    {
+      title: "Detect ML",
+      subtitle: "Android Malware Detection System (2025)",
+      description:
+        "An anomaly-based Android malware detection system that analyzes APKs using static features like API calls and intents. Enables lightweight, server-side malware detection without on-device processing.",
+      highlights: [
+        "Analyzed APKs using static features: API calls, permissions, and intents",
+        "Evaluated with KNN, Random Forest, XGBoost, and LightGBM classifiers",
+        "Built a web interface for uploading and detecting malware server-side",
+      ],
+      technologies: ["Python", "HTML", "CSS", "KNN", "Random Forest", "XGBoost", "LightGBM"],
+      githubUrl: "https://github.com/harikrishnan-ps",
+    },
+    {
+      title: "Fall Detector",
+      subtitle: "Wearable Fall Detection System (2025)",
+      description:
+        "A wearable fall detection system that automatically identifies fall events of elderly individuals and alerts caregivers for better monitoring and healthcare assistance.",
+      highlights: [
+        "Integrated sensor data (accelerometer, gyroscope) to detect fall events in real time",
+        "Used GPS module to transmit location on fall detection for caregiver alerts",
+        "Built a Flutter mobile app for caregiver notifications and patient monitoring",
+      ],
+      technologies: ["Flutter", "Python", "Sensors", "GPS Module"],
       githubUrl: "https://github.com/harikrishnan-ps",
     },
   ];

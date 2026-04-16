@@ -13,8 +13,8 @@ const Contact = () => {
     {
       icon: Mail,
       label: "Email",
-      value: "harikrishnanpsofficial@gmail.com",
-      href: "mailto:harikrishnanpsofficial@gmail.com",
+      value: "harikrishnanps20042004@gmail.com",
+      href: "mailto:harikrishnanps20042004@gmail.com",
     },
     {
       icon: MapPin,
@@ -45,7 +45,7 @@ const Contact = () => {
             <h2 className="text-3xl xl:text-5xl font-bold mb-4">Get in Touch</h2>
             <div className="w-20 h-1 bg-primary mx-auto rounded-full" />
             <p className="text-base xl:text-lg text-muted-foreground mt-6 max-w-2xl mx-auto">
-              I'm always open to discussing new projects, opportunities, or collaborations. 
+              I'm always open to discussing new projects, opportunities, or collaborations.
               Feel free to reach out!
             </p>
           </div>

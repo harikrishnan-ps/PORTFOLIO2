@@ -5,18 +5,18 @@ const About = () => {
   const highlights = [
     {
       icon: Brain,
-      title: "AI/ML Expertise",
-      description: "Deep knowledge in NLP, LLMs, and reasoning systems",
+      title: "ML & AI",
+      description: "Algorithms, ANNs, CNNs, Prompt Engineering, and hands-on model building",
     },
     {
       icon: Code2,
-      title: "Full-Stack Development",
-      description: "Building end-to-end AI-powered applications",
+      title: "Software Development",
+      description: "Building end-to-end applications with Python, web technologies, and Flutter",
     },
     {
       icon: Sparkles,
-      title: "Innovation Focus",
-      description: "Creating cutting-edge solutions with latest technologies",
+      title: "Mathematics Minor",
+      description: "Pursuing a minor degree in Mathematics alongside B.Tech CSE",
     },
   ];
 
@@ -49,21 +49,20 @@ const About = () => {
           <Card className="bg-card border-border">
             <CardContent className="p-6 xl:p-10">
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed">
-                I am Harikrishnan P S, a dedicated and ambitious Computer Science student with a strong 
-                background in {" "}
+                I am Harikrishnan P S, a final-year B.Tech student in{" "}
+                <span className="text-primary font-semibold">Computer Science & Engineering</span>{" "}
+                with hands-on experience in{" "}
                 <span className="text-primary font-semibold">programming</span>,{" "}
-                <span className="text-primary font-semibold">software development</span> and{" "}
-                <span className="text-primary font-semibold">algorithm design</span>. 
-                I'm passionate about utilizing cutting-edge technology to address complex problems and 
-                innovate practical solutions. Continuously seeking opportunities to enhance knowledge in 
-                computer science, and software engineering to make a significant impact in the tech industry and beyond.
+                <span className="text-primary font-semibold">software development</span>, and{" "}
+                <span className="text-primary font-semibold">algorithm design</span>.
+                I have a strong background in Machine Learning, Artificial Intelligence, and data processing,
+                using advanced technologies to solve complex problems and create practical, real-world solutions.
               </p>
               <p className="text-base xl:text-lg text-foreground/90 leading-relaxed mt-4">
-                With experience in both research and practical implementation, I specialize in 
-                building AI-powered business solutions that leverage the latest advancements in 
-                natural language processing, deep learning, and prompt engineering. I'm passionate 
-                about creating intelligent systems that are not only powerful but also efficient 
-                and user-friendly.
+                I am also pursuing a minor degree in Mathematics, which strengthens my analytical and
+                problem-solving foundation. My projects span across ML-based disease prediction, malware
+                detection, campus collaboration platforms, wearable fall detection systems, and a personal
+                portfolio — each built with a focus on practicality, performance, and impact.
               </p>
             </CardContent>
           </Card>
